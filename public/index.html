@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
@@ -10,34 +10,47 @@
       content="Web site created using create-react-app"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
+   
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    
+    <!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="%PUBLIC_URL%/css/base.css">
+   <link rel="stylesheet" href="%PUBLIC_URL%/css/main.css">
+   <link rel="stylesheet" href="%PUBLIC_URL%/css/vendor.css">
+   <link rel="stylesheet" href="%PUBLIC_URL%/css/fonts.css">
+   <!-- script
+   ================================================== -->
+	<script src="%PUBLIC_URL%/js/modernizr.js"></script>
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
+   <!-- favicons
+	================================================== -->
+	<link rel="icon" type="image/png" href="%PUBLIC_URL%/favicon.png">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109150430-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-109150430-1');
+</script>
+
     <title>React App</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    <div id="root">
+    
+    
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+   <!-- Java Script
+   ================================================== -->
+   <script src="%PUBLIC_URL%/js/jquery-2.1.3.min.js"></script>
+   <script src="%PUBLIC_URL%/js/plugins.js"></script>
+   <script src="%PUBLIC_URL%/js/main.js"></script>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+  </div>
   </body>
 </html>
