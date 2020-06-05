@@ -1,4 +1,4 @@
-# NGO_Xchange
+# NGO Data protection using Blockchain Technology
 
 
 ## What is NGO_Xchange ?
