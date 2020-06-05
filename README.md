@@ -43,7 +43,7 @@ NGO_Xchange is a platform to make NGO transaction secure and transparent. Main g
    /Users/"USERNAME"/Downloads/mongod/bin/mongod --dbpath=/Users/"USERNAME"/Downloads/mongodb-path
    mongo
   ```
-  7. Connect to MongoDB 
+  7. Connect to MongoDB (final1 is where repository is downloaded) 
   ```
    cd final1 
    npm run dev
