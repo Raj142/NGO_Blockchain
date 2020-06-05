@@ -38,7 +38,7 @@ NGO_Xchange is a platform to make NGO transaction secure and transparent. Main g
    truffle compile
    truffle migrate
   ```
-  6. Set path of  Mongo DB(specify path , USERNAME = username of your root(OS-X))
+  6. Set path of  Mongo DB(USERNAME = username of your root(OS-X))
   ```
    /Users/"USERNAME"/Downloads/mongod/bin/mongod --dbpath=/Users/"USERNAME"/Downloads/mongodb-path
    mongo
