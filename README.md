@@ -24,7 +24,7 @@ NGO_Xchange is a platform to make NGO transaction secure and transparent. Main g
   1. Install nodejs.
   2. For building local blockchain network install ganache.
   
-  3. clone the repository
+  3. clone the repository ( Let download in folder name "final1")
   ```
    https://github.com/Raj142/NGO_Blockchain.git
   ```
@@ -43,7 +43,7 @@ NGO_Xchange is a platform to make NGO transaction secure and transparent. Main g
    /Users/"USERNAME"/Downloads/mongod/bin/mongod --dbpath=/Users/"USERNAME"/Downloads/mongodb-path
    mongo
   ```
-  7. Connect to MongoDB (final1 is where repository is downloaded) 
+  7. Connect to MongoDB 
   ```
    cd final1 
    npm run dev
