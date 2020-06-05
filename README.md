@@ -40,7 +40,7 @@ NGO_Xchange is a platform to make NGO transaction secure and transparent. Main g
   ```
   6. Run  Mongo DB(specify path , USERNAME = username of your root(OS-X))
   ```
-   /Users/"USERNAME"/Downloads/mongod/bin/mongod --dbpath=/Users/ruchiparmar/Downloads/mongodb-path
+   /Users/"USERNAME"/Downloads/mongod/bin/mongod --dbpath=/Users/"USERNAME"/Downloads/mongodb-path
    mongo
   ```
   7. Connect to MongoDB 
