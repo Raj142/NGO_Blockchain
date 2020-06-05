@@ -26,20 +26,30 @@ NGO_Xchange is a platform to make NGO transaction secure and transparent. Main g
   
   3. clone the repository
   ```
-   git clone https://github.com/kp7742/AIKYAM.git
+   https://github.com/Raj142/NGO_Blockchain.git
   ```
-  3. Install truffle globally and install all node dependencies
+  4. Install truffle globally and install all node dependencies
   ```
-   npm install -g truffle
-   npm install 
+    npm install
+    npm install -g truffle
   ```
-  4. Compile and migrate to local blockchain network
+  5. Compile and migrate to local blockchain network
   ```
    truffle compile
    truffle migrate
   ```
-  5. Running the client on localhost:3000
+  6. Run  Mongo DB(specify path , USERNAME = username of your root(OS-X))
   ```
-   cd client
-   npm run start
+   /Users/"USERNAME"/Downloads/mongod/bin/mongod --dbpath=/Users/ruchiparmar/Downloads/mongodb-path
+   mongo
   ```
+  7. Connect to MongoDB 
+  ```
+   cd final1 
+   npm run dev
+  ```
+  8. Run the server on localhost
+  ```
+   npm start
+  ```
+
